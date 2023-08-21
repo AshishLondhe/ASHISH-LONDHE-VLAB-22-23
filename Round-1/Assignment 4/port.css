@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.asus {
+    height: 10vh;
+    width: 100%;
+    background-image: url(ask.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+ }
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 0%;
+    padding-right: 9%;
+}
+.logo{
+    color: beige;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-left: 0%;
+   
+}
+
+span{
+    color: darkred;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  23px;
+
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2em;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;  
+}

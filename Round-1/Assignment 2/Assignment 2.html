@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    
+    <h2>Registration Form for Online Technical Session</h2>
+    <form action="submit_registration.php" method="post">
+        <label for="full_name">Full Name:</label><br>
+        <input type="text" id="full_name" name="full_name" required><br><br>
+
+        <fieldset>
+            <legend>Gender *</legend>
+        <p>
+            Male <input type ="radio" name="gender" id="male">
+            Female<input type="radio" name="gender" id="female">
+        </p>
+        </fieldset><br>
+        
+        <label for="email">Email: *</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Password: *</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="confirm_password">Confirm Password: *</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+        
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="education">Education:</label><br>
+        <select id="education" name="education">
+            <option value="BE">BE</option>
+            <option value="BTECH">BTECH</option>
+            <option value="BSC">BCA</option>
+            <option value="BCS">BCS</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="canada">Canada</option>
+            <option value="uk">Uk</option>
+            <option value="australia">Australia</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <h3><a href="submit.html">Register</h3>
+            <!-- <input type="submit" value="Register"> -->
+    </form>
+    
+   
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
